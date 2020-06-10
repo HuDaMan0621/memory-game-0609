@@ -24,8 +24,8 @@
     border: 3px solid #193D49;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
-
-.MemoryCard_back, .MemoryCard_front {
+/* a comma means the style in this block affects BOTH of these 2 classes */
+.MemoryCard_back, .MemoryCard_front { 
     position: absolute;
     width: 100%;
     height: 100%;
@@ -38,6 +38,8 @@
     transform: rotateY(180deg);
 }
 
+/* no comma means the style overwrites both of the 
+classes while these 2 classes appear together */
 .MemoryCard_inner.flipped {
     transform: rotateY(180deg);
 }
