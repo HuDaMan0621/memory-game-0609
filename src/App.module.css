@@ -1,0 +1,10 @@
+.block {
+    color: blue;
+    font-size: 20;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.header {
+    font-size: 100px;
+}
